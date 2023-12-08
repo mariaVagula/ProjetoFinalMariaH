@@ -1,0 +1,44 @@
+﻿@model ProjetoFinalMariaH.Models.Usuario
+@{
+    Layout = null;
+}
+<link href="~/css/login.css" rel="stylesheet" />
+
+<div class="caixalogin">
+    <div class="logo-login">
+        <div>
+            <img src="~/img/logo nova.png" class="logo" />
+        </div>
+        <div>
+            <span>VitalisMed - Procedimentos Médicos</span>
+        </div>  
+    </div>    
+
+    <span class="frase">Acesse sua conta:</span>
+    <p></p>
+    
+    <form asp-action="Login">
+        <div class="Email">
+            <label asp-for="UsuarioEmail"></label>
+            <div class="barraemail">
+                <input asp-for="UsuarioEmail" />
+                <span asp-validation-for="UsuarioEmail"></span>
+            </div>
+
+        </div>
+        <div class="Senha">
+            <label asp-for="UsuarioSenha"></label>
+            <div>
+                <input asp-for="UsuarioSenha" type="password" />
+                <span asp-validation-for="UsuarioSenha"></span>
+            </div>
+
+        </div>
+        <br />
+        <h4>@ViewBag.Mensagem</h4>
+        <br />
+        <div>
+            <input type="submit" class="button" value="Entrar"/>
+        </div>
+    </form> 
+</div>

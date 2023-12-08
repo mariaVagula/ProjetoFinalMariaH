@@ -1,0 +1,64 @@
+﻿html, body div, h1, h2, h3 {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Informações {
+    margin-bottom: 2px;
+    border: 2px solid black;
+}
+
+.subtítulo {
+    color: #0d8a60
+}
+
+.Paciente {
+    margin-top: 40px;
+}
+
+.Exame {
+    margin-top: 40px;
+}
+
+.Laudo {
+    margin-top: 40px;
+}
+
+.DadosPaciente {
+    background-color: rgb(223, 213, 213);
+    text-align: center;
+}
+
+.DadosExame {
+    background-color: rgb(223, 213, 213);
+    text-align: center;
+}
+
+.DadosLaudo {
+    background-color: rgb(223, 213, 213);
+    text-align: center;
+}
+
+.informacoes-titulo-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+    .logo > img {
+        width: 100%;
+        height: 100px;
+    }
+
+.img-logo {
+    width: 72px;
+    margin-left: 15px;
+}

@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    background-color: #01746C;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+    .button:hover {
+        color: #B4E3BD !important;
+    }
+
+.nav-link {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #96D2C7;
+}
+
+.menu {
+    background-color: #96D2C7 !important;
+}
+
+a {
+    color: darkcyan;
+}
+
+    a:hover {
+        color: darkcyan;
+    }
+
+.img-logo {
+    width: 50px;
+    margin-left: 10px;
+}
+.img-logo img{
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+﻿@model ProjetoFinalMariaH.Models.ProcedimentoRealizado
+@{
+    Layout = null;
+}
+<link href="~/css/imprimir.css" rel="stylesheet" />
+<body>
+    <div class="parte2">
+        <div class="Informações">
+            <div class="informacoes-titulo-logo">
+                <div class="logo">
+                    <img class="navbar-brand img-logo" src="~/img/logo nova.png" />
+                </div>
+                <div class="titulo">
+                    <h2 class="subtítulo">Laboratório de Procedimentos VitalisMed</h2>
+                    <h3>O cuidado completo que você merece: Clínica Médica Geral e Estética.</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="DadosPaciente">
+            <h2>Dados do Paciente</h2>
+        </div>
+        <div class="Paciente">
+            <h3>@Html.DisplayNameFor(model => model.Cliente.ClienteNome):</h3>
+            <h3>@Html.DisplayFor(model => model.Cliente.ClienteNome)</h3>  
+            <h3>@Html.DisplayNameFor(model => model.Cliente.ClienteSexo):</h3>
+            <h3>@Html.DisplayFor(model => model.Cliente.ClienteSexo)</h3>
+        </div>
+        <br>
+        <div class="DadosExame">
+            <h2>Dados do Exame:</h2>
+        </div>
+        <h3>@Html.DisplayNameFor(model => model.Colaborador):</h3>
+        <h3>@Html.DisplayFor(model => model.Colaborador.ColaboradorNome)</h3>
+        <h3>@Html.DisplayNameFor(model => model.DataRealizacao):</h3>
+        <h3>@Html.DisplayFor(model => model.DataRealizacao)</h3>
+        <br />
+        <br />
+        <br />
+
+        <div class="ResultadoExame">
+            <h2>Observação do Procedimento:</h2>
+        </div>
+        <br />
+        <h3>@Html.DisplayNameFor(model => model.ObservacaoRealizacao):</h3>
+        <h3>@Html.DisplayFor(model => model.ObservacaoRealizacao)</h3>
+
+    </div>
+        <br>
+        <hr>    
+</body>
+        

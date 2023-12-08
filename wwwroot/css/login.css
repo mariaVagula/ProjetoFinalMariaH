@@ -1,0 +1,72 @@
+﻿.caixalogin {
+    margin-left: 35%;
+    background-color: aliceblue;
+    width: 30%;
+    height: 380px;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: 5px #01746C;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.Email label {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Email input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.Senha input {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #01746C;
+    width: 110px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid green;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -30px;
+}
+
+.button:hover {
+    color: #B4E3BD !important;
+}
+
+.frase {
+    font-size: 27px;
+    margin-top: 70px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo > img {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barraemail {
+    margin-top: -15px;
+}
